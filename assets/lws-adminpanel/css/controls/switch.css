@@ -1,0 +1,10 @@
+
+.lws-switch-wrapper{display:flex;flex-direction:row;width:100%}
+.lws-switch-left{flex:1 1 auto;text-align:right;box-sizing: border-box;line-height: 28px;border-bottom: 0px dotted #cc1d25;}
+.lws-switch-right{flex:1 1 auto;text-align:left;box-sizing: border-box;line-height: 28px;border-bottom: 0px dotted #10af25;}
+.lws-switch-button{flex:0 0 50px;border-radius:4px;height:20px;border:1px solid #666;box-sizing: border-box;margin:4px 10px;position:relative;cursor:pointer;}
+.lws-switch-green{position:absolute;width:24px;height:18px;background-color:#10af25;border-radius:3px 0 0 3px;}
+.lws-switch-red{position:absolute;width:24px;height:18px;background-color:#cc1d25;border-radius:0 3px 3px 0;left:24px;}
+.lws-switch-slide{position:relative;width:26px;height:18px;border-radius:3px;
+	background-image: linear-gradient(#ddd,#aaa)
+}

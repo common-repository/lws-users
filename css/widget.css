@@ -1,0 +1,32 @@
+.lwss_selectable.lws-widget-login{
+    border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;
+    margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+	border-color:#aaa;
+	border-style: solid;	
+}
+.lwss_selectable.lws-wlogin-text{
+	padding-top:5px;padding-right:0px;padding-bottom:5px;padding-left:0px;
+}
+.lwss_selectable.lws-wlogin-fieldline{
+	padding-top:5px;padding-right:0px;padding-bottom:5px;padding-left:0px;
+}
+.lwss_selectable.lws-wlogin-label{
+	padding-top:5px;padding-right:0px;padding-bottom:5px;padding-left:0px;
+}
+.lwss_selectable.lws-wlogin-input{
+	padding-top:5px;padding-right:0px;padding-bottom:5px;padding-left:0px;
+}
+.lwss_selectable.lws-wlogin-cb{
+	float:left;
+    margin-top:1px;margin-right:0px;margin-bottom:0px;margin-left:0px;
+}
+.lwss_selectable.lws-wlogin-footer{
+	padding-top:5px;padding-right:0px;padding-bottom:5px;padding-left:0px;
+}
+.lws-wlogin-button{
+	float: right;
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+}
+.lwss_selectable.lws-wlogin-button:hover, .lwss_selectable.lws-wlogin-button.hovered {text-align:center;}
+.lwss_selectable.lws-wlogin-button:focus, .lwss_selectable.lws-wlogin-button.focused {text-align:center;}

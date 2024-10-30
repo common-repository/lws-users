@@ -1,0 +1,1 @@
+jQuery(function(a){a(".lws-adm-field-opt").hide();a("select[name='type']").change(function(){var b=a(this).find("option:selected").val();a(".lws-adm-field-opt").hide();a(".lws-adm-field-opt-"+b).show()})});

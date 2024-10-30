@@ -1,0 +1,32 @@
+.lwss_selectable.lws-menu-login{
+    border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;
+    margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+	border-color:#aaa;
+	border-style: solid;
+}
+.lwss_selectable.lws-mlogin-text{
+	padding-top:5px;padding-right:0px;padding-bottom:5px;padding-left:0px;
+}
+.lwss_selectable.lws-mlogin-fieldline{
+	padding-top:5px;padding-right:0px;padding-bottom:5px;padding-left:0px;
+}
+.lwss_selectable.lws-mlogin-label{
+	padding-top:5px;padding-right:0px;padding-bottom:5px;padding-left:0px;
+}
+.lwss_selectable.lws-mlogin-input{
+	padding-top:5px;padding-right:0px;padding-bottom:5px;padding-left:0px;
+}
+.lwss_selectable.lws-mlogin-cb{
+	float:left;
+    margin-top:1px;margin-right:0px;margin-bottom:0px;margin-left:0px;
+}
+.lwss_selectable.lws-mlogin-footer{
+	padding-top:5px;padding-right:0px;padding-bottom:5px;padding-left:0px;
+}
+.lwss_selectable.lws-mlogin-button{
+	float:right;
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+}
+.lwss_selectable.lws-mlogin-button:hover, .lwss_selectable.lws-mlogin-button.hovered {text-align:center;}
+.lwss_selectable.lws-mlogin-button:focus, .lwss_selectable.lws-mlogin-button.focused {text-align:center;}

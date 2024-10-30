@@ -1,0 +1,43 @@
+.lwss_selectable.lws-pwd-frame{
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+}
+.lwss_selectable.lws-pwd-form{
+    border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;
+    margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+	border-color:#aaa;
+	border-style: solid;
+}
+.lwss_selectable.lws-pwd-text{
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+}
+.lwss_selectable.lws-pwd-fieldline{
+	padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px; height:25px;
+}
+.lwss_selectable.lws-pwd-label{
+	padding-top:0px;padding-right:0px;padding-bottom:5px;padding-left:0px;
+}
+.lwss_selectable.lws-pwd-input{
+	padding-top:0px;padding-right:0px;padding-bottom:5px;padding-left:0px;
+}
+.lwss_selectable.lws-pwd-cb{
+	float:left;
+    margin-top:0pxpx;margin-right:5px;margin-bottom:0px;margin-left:0px;
+}
+.lwss_selectable.lws-pwd-footer{
+	padding-top:5px;padding-right:0px;padding-bottom:5px;padding-left:0px;
+}
+.lwss_selectable.lws-pwd-button{
+	float:right;
+}
+.lwss_selectable.lws-pwd-button:hover, .lwss_selectable.lws-pwd-button.hovered {text-align:center;}
+.lwss_selectable.lws-pwd-button:focus, .lwss_selectable.lws-pwd-button.focused {text-align:center;}
+
+.lwss_selectable.lws-pwd-success{
+	padding-top:5px;padding-right:0px;padding-bottom:5px;padding-left:0px;
+	color:#32a704;
+}
+.lwss_selectable.lws-pwd-error{
+	padding-top:5px;padding-right:0px;padding-bottom:5px;padding-left:0px;
+	color:#ff1d25;
+}

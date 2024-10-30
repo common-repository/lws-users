@@ -1,0 +1,993 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: The User Plugin\n"
+"POT-Creation-Date: 2018-02-12 12:00+0100\n"
+"PO-Revision-Date: 2018-02-13 10:43+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: lws-users.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: include/admin.php:24 include/menuitem.php:42
+msgid "The User Plugin"
+msgstr "The User Plugin"
+
+#: include/admin.php:29
+msgid "General Settings"
+msgstr "Paramètres généraux"
+
+#: include/admin.php:34
+msgid "Page Login"
+msgstr "Page Login"
+
+#: include/admin.php:39
+msgid "Widget Login"
+msgstr "Widget Login"
+
+#: include/admin.php:44
+msgid "Menu Login"
+msgstr "Menu Login"
+
+#: include/admin.php:49 include/admin.php:551
+msgid "Redirections"
+msgstr "Redirections"
+
+#: include/admin.php:53 lws-users.php:59
+msgid "Settings"
+msgstr "Paramètres"
+
+#: include/admin.php:58
+msgid "Redirection List"
+msgstr "Liste de redirections"
+
+#: include/admin.php:76
+#, php-format
+msgctxt "Redirections count"
+msgid "(%d)"
+msgstr "(%d)"
+
+#: include/admin.php:78
+msgctxt "All redirections"
+msgid "All"
+msgstr "Tout"
+
+#: include/admin.php:79
+msgctxt "Redirections"
+msgid "Default"
+msgstr "Valeur par défaut"
+
+#: include/admin.php:80
+msgctxt "Redirections"
+msgid "Roles"
+msgstr "Rôles"
+
+#: include/admin.php:81
+msgctxt "Redirections"
+msgid "Users"
+msgstr "Utilisateur"
+
+#: include/admin.php:106
+msgid "Lost Password"
+msgstr "Mot de passe oublié"
+
+#: include/admin.php:107
+msgid "Customize the 'Lost Password' procedure."
+msgstr "Personnaliser la procédure « Mot de passe perdu »."
+
+#: include/admin.php:111
+msgid "Lost password page"
+msgstr "Page Mot de passe oublié"
+
+#: include/admin.php:115
+#, php-format
+msgid ""
+"\n"
+"\t\t\t\t\t\t\tPage where a user can ask for a new password.<br/>\n"
+"\t\t\t\t\t\t\tUse <b>%s</b> in your page to create the 'Send new password' "
+"form.\n"
+"\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\tPage où un utilisateur peut demander un nouveau mot de passe.<br/"
+">\n"
+"\t\t\t\t\t\tUtilisez <b>%s</b> dans votre page pour créer le formulaire "
+"« Envoyer le nouveau mot de passe ».\n"
+"\t\t\t\t\t"
+
+#: include/admin.php:123
+msgid "New password mail content"
+msgstr "Contenu du mail pour demande de Nouveau Mot de passe"
+
+#: include/admin.php:125
+#, php-format
+msgid ""
+"\n"
+"\t\t\t\t\t\tUse <b>%s</b> and <b>%s</b> to send the user his new credentials."
+"<br/>\n"
+"\t\t\t\t\t\tUse <b>%s</b> to provide a 'change password' link to the user."
+"<br/>\n"
+"\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\tUtilisez <b>%s</b> et <b>%s</b> pour renvoyer l’utilisateur ses "
+"nouvelles informations d’identification.<br/>\n"
+"\t\t\t\t\t\tUtilisez <b>%s</b> pour fournir un lien « modifier le mot de "
+"passe » à l’utilisateur.<br/>\n"
+"\t\t\t\t\t"
+
+#: include/admin.php:132
+msgid "Change password page"
+msgstr "Page de modification de mot de passe"
+
+#: include/admin.php:136
+#, php-format
+msgid ""
+"\n"
+"\t\t\t\t\t\t\tPage where users can change their password.<br/>\n"
+"\t\t\t\t\t\t\tIf you don't have one, use <b>%s</b> on a new page to create "
+"the form.\n"
+"\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\tPage où les utilisateurs peuvent modifier leur mot de passe.<br/"
+">\n"
+"\t\t\t\t\t\tSi vous n’en avez pas, utilisez <b>%s</b> sur une nouvelle page "
+"pour créer le formulaire.\n"
+"\t\t\t\t\t"
+
+#: include/admin.php:157
+msgid "Translations"
+msgstr "Traductions"
+
+#: include/admin.php:158
+msgid ""
+"Enter the text translations that front-end users will see in the different "
+"login objects"
+msgstr ""
+"Entrez les traductions visibles par les utilisateurs dans les différents "
+"formulaires de connexion"
+
+#: include/admin.php:162 lws-users.php:138
+msgid "Login"
+msgstr "Identification"
+
+#: include/admin.php:167 include/dialog.php:114 include/dialog.php:201
+#: lws-users.php:139
+msgid "Register"
+msgstr "S&rsquo;enregistrer"
+
+#: include/admin.php:172 lws-users.php:140
+msgid "Username"
+msgstr "Nom d&rsquo;utilisateur"
+
+#: include/admin.php:177 include/dialog.php:148 include/menuitem.php:317
+#: include/widget.php:64 lws-users.php:142
+msgid "Password"
+msgstr "Mot de passe"
+
+#: include/admin.php:182 lws-users.php:143
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: include/admin.php:187 lws-users.php:141
+msgid "Email"
+msgstr "Email"
+
+#: include/admin.php:192 lws-users.php:144
+msgid "Remember me"
+msgstr "Se souvenir de moi"
+
+#: include/admin.php:197 lws-users.php:145
+msgid "Submit"
+msgstr "Soumettre"
+
+#: include/admin.php:202 include/dialog.php:249 include/menuitem.php:194
+#: include/menuitem.php:261 include/widget.php:103 lws-users.php:146
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: include/admin.php:207 lws-users.php:147
+msgid "Welcome"
+msgstr "Bienvenue"
+
+#: include/admin.php:212 lws-users.php:165
+msgid "Lost your password ?"
+msgstr "Mot de passe oublié?"
+
+#: include/admin.php:231 include/admin.php:391 include/admin.php:461
+msgid "Features"
+msgstr "Fonctionnalités"
+
+#: include/admin.php:237
+msgid ""
+"\n"
+"\t\t\t\t\t\t\tInside a page, you can use the shortcode <b>[lws_users]</b><br/"
+">\n"
+"\t\t\t\t\t\t\tBy default, it will use the settings you've specified in the "
+"'Page Login' Section. But if you need to, you can override default settings "
+"using shortcode options as follows :<br/>\n"
+"\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t<li><strong>enable_register=yes/no</strong>: Define if the "
+"register feature is enabled on the form or not</li>\n"
+"\t\t\t\t\t\t\t\t<li><strong>enable_remember=yes/no</strong>: Define if the "
+"'Remember me' checkbox is enabled on the form or not</li>\n"
+"\t\t\t\t\t\t\t\t<li><strong>enable_lost=yes/no</strong>: Define if the 'Lost "
+"Password' link is enabled on the form or not</li>\n"
+"\t\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t\tYou can specify no option, some of them or all, depending on "
+"your needs.<br/>\n"
+"\t\t\t\t\t\t\tThe shortcode is only available inside pages and posts. For "
+"widget or Menu Login, use the settings in the Appeareance Configuration<br/"
+"><br/>\n"
+"\t\t\t\t\t\t\t<h2>Example</h2><br/>\n"
+"\t\t\t\t\t\t\t<strong>[lws_users enable_register=yes enable_lost=no "
+"enable_remember=yes]</strong>\n"
+"\t\t\t\t\t\t\t<br/><br/>"
+msgstr ""
+"\n"
+"\t\t\t\t\t\t\tDans une page, vous pouvez utiliser le shortcode "
+"<b>[lws_users]</b><br/>\n"
+"\t\t\t\t\t\t\tPar défaut, le shortcode utilise les paramètres spécifiés dans "
+"la suite de cette page. Cependant, vous pouvez les surcharger en utilisant "
+"les options suivantes :<br/>\n"
+"\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t<li><strong>enable_register=yes/no</strong>: Définit si la "
+"fonction d'enregistrement est activée ou pas</li>\n"
+"\t\t\t\t\t\t\t\t<li><strong>enable_remember=yes/no</strong>: Définit si la "
+"checkbox 'Se souvenir de moi' est visible ou pas</li>\n"
+"\t\t\t\t\t\t\t\t<li><strong>enable_lost=yes/no</strong>: Définit si le lien "
+"'Mot de passe perdu' est diponible ou pas</li>\n"
+"\t\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t\tVous pouvez spécifier le nombre d'options qui correspond à vos "
+"besoins<br/>\n"
+"\t\t\t\t\t\t\tCe shortcode n'est disponible que dans les pages et les "
+"articles. Pour les formulaires des widgets et menus, reportez-vous aux "
+"sections dédiées via le menu ci-dessus<br/><br/>\n"
+"\t\t\t\t\t\t\t<h2>Exemple</h2><br/>\n"
+"\t\t\t\t\t\t\t<strong>[lws_users enable_register=yes enable_lost=no "
+"enable_remember=yes]</strong>\n"
+"\t\t\t\t\t\t\t<br/><br/>"
+
+#: include/admin.php:255
+msgid "Allow users to register"
+msgstr "Autoriser les utilisateurs à s’inscrire"
+
+#: include/admin.php:260 include/admin.php:396 include/admin.php:466
+msgid "Enable Remember me"
+msgstr "Activer Se Souvenir de Moi"
+
+#: include/admin.php:266 include/admin.php:402
+msgid "Enable Password Lost"
+msgstr "Activer le mot de passe perdu"
+
+#: include/admin.php:273
+msgid "Registration"
+msgstr "Inscription"
+
+#: include/admin.php:274
+msgid ""
+"If you have enabled registration, you can go further and want users to "
+"confirm their email before allowing them to connect to your website"
+msgstr ""
+"Si vous avez activé l'enregistrement, vous pouvez aller plus loin en "
+"souhaitant que les utilisateurs confirment leur email avant de leur "
+"permettre de se connecter à votre site Internet"
+
+#: include/admin.php:278
+msgid "Notify administrator about registrations"
+msgstr "Notifier l’administrateur des inscriptions"
+
+#: include/admin.php:283
+msgid "Request user activation"
+msgstr "Demander l’activation de l’utilisateur"
+
+#: include/admin.php:288
+msgid "After Registration page"
+msgstr "Page après inscription"
+
+#: include/admin.php:292
+msgid ""
+"Future users are redirected to this page after registration and before "
+"activation"
+msgstr ""
+"Les futurs utilisateurs sont redirigés vers cette page après l’inscription "
+"et avant l’activation"
+
+#: include/admin.php:297
+msgid "Account activated page"
+msgstr "Page de compte activé"
+
+#: include/admin.php:301
+msgid ""
+"Users are redirected to this page when they click on the activation link"
+msgstr ""
+"Les utilisateurs sont redirigés vers cette page lorsqu’ils cliquent sur le "
+"lien d’activation"
+
+#: include/admin.php:306
+msgid "Account activation error page"
+msgstr "Page d’erreur d’activation compte"
+
+#: include/admin.php:310
+msgid ""
+"Users are redirected to this page when they fail to activate their account"
+msgstr ""
+"Les utilisateurs sont redirigés vers cette page quand ils échouent à activer "
+"leur compte"
+
+#: include/admin.php:315
+msgid "Activation Email Text"
+msgstr "Texte d’Email d’activation"
+
+#: include/admin.php:319
+msgid ""
+"Use <em>[activation_link]</em> shortcode to include a link to activate the "
+"account.<br/><em>[user_name]</em> will be replaced by the registered login."
+msgstr ""
+"Utilisez le shortcode <em>[activation_link]</em> pour inclure un lien vers "
+"l'activation du compte.<br/><em>[user_name]</em> sera remplacé par l'id "
+"utilisateur enregistré."
+
+#: include/admin.php:326 include/admin.php:409
+msgid "Customisation"
+msgstr "Personnalisation"
+
+#: include/admin.php:327
+msgid ""
+"Here you can customize the content of the Login/Register Control.<br/"
+"><b>[user_name]</b> is the logged user name or an empty text if none."
+msgstr ""
+"Ici, vous pouvez personnaliser le contenu du contrôle Connexion/Inscription."
+"<br><b>[user_name]</b> est le nom d’utilisateur ou d’un texte vide si aucun."
+
+#: include/admin.php:331
+msgid "Login form logo"
+msgstr "Logo ou Image"
+
+#: include/admin.php:337 include/admin.php:414
+msgid "Login form message"
+msgstr "Message de formulaire de connexion"
+
+#: include/admin.php:343
+msgid "Register form message"
+msgstr "Message du formulaire d'inscription"
+
+#: include/admin.php:349 include/admin.php:420
+msgid "Logout form message"
+msgstr "Message avant déconnexion"
+
+#: include/admin.php:356 include/admin.php:427 include/admin.php:490
+msgid "Styling"
+msgstr "Style"
+
+#: include/admin.php:357
+msgid "Here you can customize the look of the Login/Register Control."
+msgstr ""
+"Ici, vous pouvez personnaliser l’apparence du contrôle Connexion/Inscription."
+
+#: include/admin.php:372 include/admin.php:442 include/admin.php:505
+msgid "CSS"
+msgstr "CSS"
+
+#: include/admin.php:373
+msgid "Here you can specify extra CSS for the Login/Register Control."
+msgstr ""
+"Ici, vous pouvez personnaliser l’apparence du contrôle Connexion/Inscription."
+
+#: include/admin.php:377 include/admin.php:447 include/admin.php:510
+msgid "CSS code"
+msgstr "Code CSS"
+
+#: include/admin.php:392
+msgid "Define the features of the widget login form"
+msgstr "Définir les caractéristiques du formulaire de connexion widget"
+
+#: include/admin.php:410
+msgid ""
+"Here you can customize the Login Widget's content.<br/><b>[user_name]</b> is "
+"the logged user name (empty if none)"
+msgstr ""
+"Ici, vous pouvez personnaliser le contenu du widget Connexion/Inscription."
+"<br><b>[user_name]</b> est le nom d’utilisateur ou d’un texte vide si aucun."
+
+#: include/admin.php:428
+msgid "Here you can customize the look of the Widget Control."
+msgstr "Ici, vous pouvez personnaliser l’apparence du Widget."
+
+#: include/admin.php:443
+msgid "Here you can specify extra CSS for the widget Control."
+msgstr "Ici, vous pouvez spécifier des CSS supplémentaires pour le Widget."
+
+#: include/admin.php:462
+msgid "Define the features of the menu login form"
+msgstr "Définir les caractéristiques du formulaire de connexion du menu"
+
+#: include/admin.php:472
+msgid "Simple link only"
+msgstr "Simple lien uniquement"
+
+#: include/admin.php:475
+msgid "Hide the form and only create a link to the Login Page"
+msgstr ""
+"Masquer le formulaire et seulement créer un lien vers la Page de connexion"
+
+#: include/admin.php:480
+msgid "Login Page"
+msgstr "Page de Connexion"
+
+#: include/admin.php:484
+msgid "If specified, the menu title will link to this page"
+msgstr "Si spécifié, le menu redirigera vers cette page"
+
+#: include/admin.php:491
+msgid "Here you can customize the look of the Menu Login."
+msgstr "Ici, vous pouvez personnaliser l’apparence du Menu."
+
+#: include/admin.php:506
+msgid "Here you can specify extra CSS for the menu Control."
+msgstr "Ici, vous pouvez spécifier des CSS supplémentaires pour le menu."
+
+#: include/admin.php:523
+msgid "Redirection settings"
+msgstr "Paramètres de redirection"
+
+#: include/admin.php:528
+msgid "Enabled"
+msgstr "Activé"
+
+#: include/admin.php:530
+msgid "Redirect remembered users when they come back from another site."
+msgstr ""
+"Rediriger les utilisateurs reconnus lorsqu'ils arrivent depuis un autre site."
+
+#: include/admin.php:536
+msgid "Excluded URLs"
+msgstr "Liste des URL exclues"
+
+#: include/admin.php:539
+msgid ""
+"If the user comes from the following URL (you can specify only a part of a "
+"url), he will not be redirected (usefull for multi-site).<br/>Semicolon (<b>;"
+"</b>) separated URLs.<br/>Current blog URL as origin will never trigger "
+"redirection, no need to add it."
+msgstr ""
+"Si l'utilisateur arrive depuis l'url suivante (vous pouvez spécifier une "
+"partie seulement), il ne sera pas redirigé (utile pour un WordPress "
+"multisite)<br/>Utilisez le point virgule (<b>;</b>) pour des urls séparées."
+"<br/>L'url du présent site ne déclenchera jamais la redirection."
+
+#: include/admin.php:552
+msgid ""
+"Here you can edit or create a new redirection. Make sure Default "
+"redirections for Login and Logout actions are always set"
+msgstr ""
+"Ici vous pouvez modifier ou créer une nouvelle redirection. Assurez-vous que "
+"les redirections par défaut pour la connexion et la déconnexion des actions "
+"ont toujours une valeur"
+
+#: include/ajax.php:19 include/ajax.php:64
+msgid "Internal error, please retry later."
+msgstr "La connexion a échoué, réessayez plus tard."
+
+#: include/ajax.php:23 include/ajax.php:69
+msgid "Security tests failed. Action ignored."
+msgstr "Les tests de sécurité ont échoué. Action ignorée."
+
+#: include/ajax.php:27
+msgid "Given value is not a valid email."
+msgstr "L'adresse e-mail n’est pas valide."
+
+#: include/ajax.php:49
+msgid "Cannot send the 'lost password' mail. Please contact the administrator."
+msgstr ""
+"Impossible d’envoyer le courrier « mot de passe perdu ». Veuillez contacter "
+"l’administrateur."
+
+#: include/ajax.php:52 include/ajax.php:108
+msgid "An error occured during the password update."
+msgstr "Une erreur est survenue pendant la mise à jour du mot de passe."
+
+#: include/ajax.php:55
+msgid "Mail unknown."
+msgstr "Courrier inconnu."
+
+#: include/ajax.php:73
+msgid "Password and confirmation are different. Please, try again."
+msgstr "Le mot de passe et la confirmation doivent être identiques."
+
+#: include/ajax.php:77
+msgid ""
+"<p>Password is too short. Please, try again.</p>\n"
+"<p>Prefer a Passphrase, a sequence of word with no obvious link between them."
+"</p>\n"
+"<p>Typical advice about choosing a passphrase includes suggestions that it "
+"should be:<ul>\n"
+"<li>Long enough to be hard to guess</li>\n"
+"<li>Not a famous quotation from literature, holy books, et cetera</li>\n"
+"<li>Hard to guess by intuition—even by someone who knows the user well</li>\n"
+"<li>Easy to remember and type accurately</li>\n"
+"<li>For better security, any easily memorable encoding at the user's own "
+"level can be applied.</li>\n"
+"<li>Not reused between sites, applications and other different sources.</"
+"li>\n"
+"</ul><br/>See <a href='https://en.wikipedia.org/wiki/Passphrase'>Passphrase</"
+"a> for information about security.</p>"
+msgstr ""
+"<p>Le mot de passe est trop court, veuillez réessayer</p>\n"
+"<p>Préférez une Passphrase, une séquence de mots sans aucun lien apparent.</"
+"p>\n"
+"<p>Un mot de passe devrait suivre les règles suivantes:<ul>\n"
+"<li>Assez long pour être dûr à deviner</li>\n"
+"<li>Ne pas être une citation connue d'un livre</li>\n"
+"<li>Difficile à déduire, même par une personne vous connaissant bien</li>\n"
+"<li>Facile à taper correctement et à se remémorer</li>\n"
+"<li>Non réutilisé sur d'autres sites ou applications</li>\n"
+"</ul><br/>Lisez<a href='https://en.wikipedia.org/wiki/"
+"Passphrase'>Passphrase</a> pour davantage d'informations sur la sécurité.</p>"
+
+#: include/ajax.php:104
+msgid "Password updated."
+msgstr "Le mot de passe a été modifié."
+
+#: include/ajax.php:131
+#, php-format
+msgid "Reset your password on %s"
+msgstr "Réinitialisez votre mot de passe à %s"
+
+#: include/dialog.php:113
+msgid "Connection"
+msgstr "Connexion"
+
+#: include/dialog.php:147 include/menuitem.php:316 include/widget.php:63
+msgid "User name"
+msgstr "Utilisateur"
+
+#: include/dialog.php:149 include/menuitem.php:318 include/widget.php:65
+msgid "Remember me ?"
+msgstr "Se souvenir de moi ?"
+
+#: include/dialog.php:150 include/menuitem.php:319 include/widget.php:66
+msgid "Connect"
+msgstr "Connect"
+
+#: include/dialog.php:196
+msgid "User name(*)"
+msgstr "Nom d'utilisateur(*)"
+
+#: include/dialog.php:197 include/dialog.php:351
+msgid "Email Address(*)"
+msgstr "Email(*)"
+
+#: include/dialog.php:198 include/dialog.php:387
+msgid "Password(*)"
+msgstr "Mot de passe(*)"
+
+#: include/dialog.php:199 include/dialog.php:388
+msgid "Confirm password(*)"
+msgstr "Confirmer le mot de passe"
+
+#: include/dialog.php:200
+msgid "(*) Mandatory"
+msgstr "(*) Obligatoire"
+
+#: include/dialog.php:302 include/dialog.php:313 include/dialog.php:324
+#: lws-users.php:179
+msgid "Lost password"
+msgstr "Mot de passe perdu"
+
+#: include/dialog.php:350 include/dialog.php:384
+msgid "Retry"
+msgstr "Réessayer"
+
+#: include/dialog.php:352 include/dialog.php:385
+msgid "Apply"
+msgstr "Valider"
+
+#: include/logaction.php:97
+msgid "Check your login/password."
+msgstr "Vérifiez votre login/mot de passe."
+
+#: include/logaction.php:127
+#, php-format
+msgid ""
+"Couldn't register you. Please contact the <a href='mailto:%s'>webmaster</a> !"
+msgstr ""
+"Impossible de vous enregistrer. Veuillez contacter le <a href='mailto:"
+"%s'>webmaster</a> !"
+
+#: include/logaction.php:169
+msgid "Connexion failed, please retry later."
+msgstr "La connexion a échoué, réessayez plus tard."
+
+#: include/logaction.php:177
+msgid "A login is required."
+msgstr "Un nom d’utilisateur est requis."
+
+#: include/logaction.php:179
+msgid "A valid email is required."
+msgstr "Une adresse email valide est requise."
+
+#: include/logaction.php:181
+msgid "A password is required."
+msgstr "Le mot de passe est requis."
+
+#: include/logaction.php:183
+msgid "Password and confirmation must be the same."
+msgstr "Le mot de passe et la confirmation doivent être identiques."
+
+#: include/logaction.php:185
+msgid "This username is already registered. Please choose another one."
+msgstr ""
+"Ce nom d’utilisateur est déjà enregistré. S.V.P. veuillez en choisir un "
+"autre."
+
+#: include/logaction.php:187
+msgid ""
+"This username is invalid because it uses illegal characters. Please enter a "
+"valid username."
+msgstr ""
+"Cet identifiant n'est pas valide car il utilise des caractères non "
+"conformes. Veuillez entrer un identifiant valide."
+
+#: include/logaction.php:189
+msgid "This email is already registered, please choose another one."
+msgstr "Cet email est déjà enregistré. Veuillez en choisir un autre."
+
+#: include/logaction.php:191
+msgid "Given email is not valid."
+msgstr "L'adresse e-mail n’est pas valide."
+
+#: include/logaction.php:196
+msgid "Sorry, that username is not allowed."
+msgstr "Ce nom d’utilisateur n’est pas autorisé."
+
+#: include/logaction.php:295
+msgid ""
+"Your email must be validated first. Click [activation_link]here[/"
+"activation_link] to re-send the activation mail."
+msgstr ""
+"Votre email doit d'abord être validé. Cliquez [activation_link] ici [/ "
+"activation_link] pour ré-envoyer le mail d’activation."
+
+#: include/logaction.php:303
+msgctxt "<a/> text for send activation mail link"
+msgid "link"
+msgstr "lien"
+
+#: include/logaction.php:328
+msgid "Registration is ok, we sent you a validation email."
+msgstr ""
+"L'inscription est correcte, nous vous avons envoyé un e-mail de validation."
+
+#: include/logaction.php:329
+msgid "This email contains a link to activate your account."
+msgstr "Ce courrier électronique contient un lien pour activer votre compte."
+
+#: include/logaction.php:353
+#, php-format
+msgid "Activate your account on %s"
+msgstr "Activez votre compte sur%s"
+
+#: include/logaction.php:368
+msgctxt "activation link label"
+msgid "Activation"
+msgstr "Activation"
+
+#: include/logaction.php:390
+msgid ""
+"<strong>ERROR</strong>: Your account hasn't been activated. Please check "
+"your emails"
+msgstr ""
+"<strong>ERREUR</strong>: Votre compte n'a pas encore été activé. Veuillez "
+"vérifier vos emails."
+
+#: include/menuitem.php:44
+msgid "Login Menu"
+msgstr "Menu de connexion"
+
+#: include/menuitem.php:45
+msgid "Logged in Menu"
+msgstr "Menu connecté"
+
+#: include/menuitem.php:46
+msgid "Not logged in menu"
+msgstr "Menu déconnecté"
+
+#: include/menuitem.php:119
+msgid "Select All"
+msgstr "Tout sélectionner"
+
+#: include/menuitem.php:122
+msgid "Add to Menu"
+msgstr "Ajouter au menu"
+
+#: include/menuitem.php:155
+#, php-format
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: include/menuitem.php:192
+msgid "My account"
+msgstr "Mon Compte"
+
+#: include/menuitem.php:197
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: include/redirlist.php:21
+msgid "Add/Modify redirection"
+msgstr "Ajouter / Modifier la redirection"
+
+#: include/redirlist.php:34 include/redirlist.php:72
+msgid "Role/User"
+msgstr "Rôle / Utilisateur"
+
+#: include/redirlist.php:50
+msgid "Redirection Target"
+msgstr "Cible de redirection"
+
+#: include/redirlist.php:70
+msgid "Type"
+msgstr "Type"
+
+#: include/redirlist.php:71
+msgid "Action"
+msgstr "Action"
+
+#: include/redirlist.php:73
+msgid "Page/URL"
+msgstr "Page/URL"
+
+#: include/redirlist.php:258
+msgctxt "label redirection"
+msgid "Redir. Type"
+msgstr "Type Redirection"
+
+#: include/redirlist.php:259
+msgctxt "label redirection"
+msgid "Trigger Action"
+msgstr "Déclenchement"
+
+#: include/redirlist.php:260
+msgctxt "label redirection"
+msgid "User"
+msgstr "Utilisateur"
+
+#: include/redirlist.php:261
+msgctxt "label redirection"
+msgid "Role"
+msgstr "Rôle"
+
+#: include/redirlist.php:262
+msgctxt "label redirection"
+msgid "Target"
+msgstr "Cible"
+
+#: include/redirlist.php:263
+msgctxt "label redirection"
+msgid "or URL"
+msgstr "ou URL"
+
+#: include/redirlist.php:270
+msgctxt "redirection"
+msgid "Default"
+msgstr "Valeur par défaut"
+
+#: include/redirlist.php:270
+msgctxt "redirection"
+msgid "User"
+msgstr "Utilisateur"
+
+#: include/redirlist.php:270
+msgctxt "redirection"
+msgid "Role"
+msgstr "Rôle"
+
+#: include/redirlist.php:271
+msgctxt "redirection"
+msgid "Login"
+msgstr "Identification"
+
+#: include/redirlist.php:271
+msgctxt "redirection"
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: include/redirlist.php:282
+msgctxt "get role error"
+msgid "Unknown"
+msgstr "Inconnu"
+
+#: include/redirlist.php:290
+msgctxt "get user error"
+msgid "Unknown"
+msgstr "Inconnu"
+
+#: include/redirlist.php:298
+msgctxt "get page error"
+msgid "Unknown"
+msgstr "Inconnu"
+
+#: include/redirlist.php:307
+msgctxt "redirection"
+msgid "All"
+msgstr "Tout"
+
+#: include/widget.php:14
+msgid "User login"
+msgstr "Identifiant"
+
+#: include/widget.php:14
+msgid "A login/logout widget."
+msgstr "Un widget de connexion / déconnexion."
+
+#: include/widget.php:24
+msgid "Connexion"
+msgstr "Connection"
+
+#: include/widget.php:40
+msgid "Title:"
+msgstr "Titre :"
+
+#: lws-users.php:62
+msgid "Help"
+msgstr "Aide"
+
+#: lws-users.php:63
+msgid "https://plugins.longwatchstudio.com/en/documentation-en/the-user-plugin/"
+msgstr "https://plugins.longwatchstudio.com/fr/documentation/the-user-plugin/"
+
+#: lws-users.php:167
+msgid ""
+"<html><body><p>Wecome [user_name]!</p><p>To activate your account, click "
+"[activation_link]here[/activation_link].</p></body></html>"
+msgstr ""
+"<html><body><p> Bienvenue [nom_utilisateur]! </p><p> Pour activer votre "
+"compte, cliquez[activation_link] ici [/ activation_link]. </p></body></html>"
+
+#: lws-users.php:170
+msgid ""
+"<html><body>\n"
+"<p>A new password have been generated. To connect, Use <ul><li>Login: "
+"[login]</li><li>Password: [password]</li></ul>.</p>\n"
+"<p>You can define a new pasword at anytime on this page: [change_pwd_page].</"
+"p>\n"
+"</body></html>"
+msgstr ""
+"<html><body>\n"
+"<p>Un nouveau mot de passe a été généré. Pour vous connecter, "
+"utilisez<ul><li>Login : [login]</li><li>Mot de passe : [password]</li></ul>."
+"</p>\n"
+"<p>Vous pouvez définir un nouveau mot de passe à tout moment sur cette "
+"page : [change_pwd_page].</p>\n"
+"</body></html>"
+
+#: lws-users.php:175
+msgid "Activation mail sent"
+msgstr "Message d'activation envoyé"
+
+#: lws-users.php:175
+msgid "An activation mail have been sent to you."
+msgstr "Un courrier d'activation vous a été envoyé."
+
+#: lws-users.php:176
+msgid "Account activated"
+msgstr "Compte activé"
+
+#: lws-users.php:176
+msgid "Your account is activated. Now you can connect."
+msgstr "Votre compte est activé. Vous pouvez maintenant vous connecter."
+
+#: lws-users.php:177
+msgid "Account activation error"
+msgstr "Erreur d’activation de compte"
+
+#: lws-users.php:177
+msgid ""
+"An error occured during activation. Please retry later or contact the "
+"administrator."
+msgstr ""
+"Une erreur s'est produite lors de l'activation. Réessayez plus tard ou "
+"contactez l'administrateur."
+
+#: lws-users.php:179
+msgid ""
+"<p>A new password will be sent to your email address.</p>[send_password_form]"
+msgstr ""
+"<p>Un nouveau mot de passe vous sera envoyé sur votre boîte mail.</"
+"p>[send_password_form]"
+
+#: lws-users.php:180
+msgid "Password settings"
+msgstr "Réglages de mot de passe"
+
+#: lws-users.php:180
+msgid "<p>Change your password</p>[change_password_form]"
+msgstr "<p>Changer votre mot de passe</p>[change_password_form]"
+
+#: lws-users.php:214
+msgid "User login form"
+msgstr "Formulaire de connexion"
+
+#. Author of the plugin/theme
+#: lws-users.php:217 lws-users.php:251 lws-users.php:261
+msgid "Long Watch Studio"
+msgstr "Long Watch Studio"
+
+#: lws-users.php:218
+msgid "Display a login/register form"
+msgstr "Afficher le formulaire de Connexion/Inscription"
+
+#: lws-users.php:223
+msgid "Registration page"
+msgstr "Page d’inscription"
+
+#: lws-users.php:226 lws-users.php:237
+msgid "Show"
+msgstr "Afficher"
+
+#: lws-users.php:227 lws-users.php:238
+msgid "Hide"
+msgstr "Cacher"
+
+#: lws-users.php:230
+msgid "Display a tab allowing visitor to register."
+msgstr "Affichez un onglet permettant au visiteur de s'inscrire."
+
+#: lws-users.php:234
+msgid "Remember me checkbox"
+msgstr "Case à cocher « Se souvenir de moi »"
+
+#: lws-users.php:241
+msgid "Display a checkbox to keep user connected between two visits."
+msgstr ""
+"Afficher une case à cocher pour garder l'utilisateur connecté entre deux "
+"visites."
+
+#: lws-users.php:248
+msgid "Password lost"
+msgstr "Mot de passe perdu"
+
+#: lws-users.php:252
+msgid "Display a form to send a new password"
+msgstr "Afficher un formulaire pour envoyer un nouveau mot de passe"
+
+#: lws-users.php:258
+msgid "Change Password"
+msgstr "Modifier le mot de passe"
+
+#: lws-users.php:262
+msgid "Display a form to update user password"
+msgstr "Affiche un formulaire pour mettre à jour le mot de passe utilisateur"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.longwatchstudio.com"
+msgstr "https://plugins.longwatchstudio.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Provide a login/logout solution available on pages, posts, widgets and "
+"menus. Manage user redirection on login/logout by role or user."
+msgstr ""
+"Fournit une solution de connexion/déconnexion sur les pages, articles, "
+"widgets et menus. Gère les redirections sur connexion/déconnexion par "
+"utilisateur ou par rôle."
+
+#. Author URI of the plugin/theme
+msgid "https://longwatchstudio.com"
+msgstr "https://longwatchstudio.com"

@@ -1,0 +1,1 @@
+jQuery(function(a){a("form.lw_form_submit_on_next").next().click(function(){a(this).prev("form").submit();return false})});
